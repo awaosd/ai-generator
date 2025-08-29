@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome to the AI Bible verse generator</h1>
+    <main>
+      <h1>Welcome to the AI Bible verse generator</h1>
+      <form class="verse-form" id="verse-form">
+        <input
+          class="verse-input"
+          id="verse-input"
+          type="text"
+          placeholder="Enter the topic of the verse"
+          required
+          autocomplete="off"
+        />
+        <input
+          type="submit"
+          value="Search"
+          class="verse-button"
+          id="verse-button"
+        />
+      </form>
+      <div id="verse">
+        “Have mercy on me, Lord, for I am faint. Heal me,
+        <br />
+        Lord, for my bones are in agony.”
+      </div>
+    </main>
 
     <footer>
       This project was coded by
