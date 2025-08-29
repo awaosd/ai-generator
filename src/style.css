@@ -5,10 +5,40 @@ body {
 h1 {
   text-align: center;
   font-size: 40px;
-  padding: 20px;
+  margin-top: 20px;
 }
 footer {
   text-align: center;
   font-size: 16px;
   color: #3c1b1f;
+}
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+.verse-form {
+  background: #e8d5b7;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+.verse {
+  background: #e8d5b7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 3px solid #3c1b1f;
+}
+.verse-input {
+  color: #3c1b1f;
+  background: #f0ece2;
+  border-radius: 20px;
+  width: 80%;
+  padding: 15px;
+}
+.verse-button {
+  color: #3c1b1f;
+  background: #c7b198;
+  border-radius: 20px;
+  width: 100px;
 }
