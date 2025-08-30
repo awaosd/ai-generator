@@ -29,6 +29,9 @@ footer {
   margin-top: 20px;
   border-left: 3px solid #3c1b1f;
 }
+.hidden {
+  display: none;
+}
 .verse-input {
   color: #3c1b1f;
   background: #f0ece2;
