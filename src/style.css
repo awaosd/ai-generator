@@ -1,23 +1,23 @@
 body {
-  background: #e2bf81;
+  background: #7dd87d;
 }
 
 h1 {
   text-align: center;
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 footer {
   text-align: center;
   font-size: 16px;
-  color: #3c1b1f;
+  color: #392f2f;
 }
 .container {
   max-width: 600px;
   margin: 120px auto;
 }
 .verse-form {
-  background: #e8d5b7;
+  background: #c37857;
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -27,21 +27,22 @@ footer {
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
-  border-left: 3px solid #3c1b1f;
+  border-left: 3px solid #c37857;
+  color: black;
 }
 .hidden {
   display: none;
 }
 .verse-input {
-  color: #3c1b1f;
-  background: #f0ece2;
+  color: black;
+  background: #e8d5b7;
   border-radius: 20px;
   width: 80%;
   padding: 15px;
 }
 .verse-button {
-  color: #3c1b1f;
-  background: #c7b198;
+  color: white;
+  background: #906387;
   border-radius: 20px;
   width: 100px;
 }
